@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+}
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    /* background-color: #28a745; */
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-text {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.task-text.completed {
+    text-decoration: line-through !important;
+    color: #6c757d;
+}
+
+.addBtn{
+    background-color: #218838;
+}
+
+.editBtn {
+    background-color: #007bff;
+    flex: 0 0 70px;
+    margin-right: 7px;
+}
+
+.editBtn:hover {
+    background-color: #0056b3;
+
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    flex: 0 0 70px;
+}
+
+.deleteBtn:hover {
+    background-color: #c82333;
+}
